@@ -2,9 +2,9 @@
  {
   "title": "Arcane",
   "kind": "cancel",
-  "body": "Portainer Business Edition Starter costs $1,045 a year. Arcane is open source Docker management that you host yourself, so someone on the team has to run it and keep it updated. The main branch is v3 now and the old 2.x line has its own branch. The last commit was today. There's nobody to call when it breaks.",
-  "verdict": "If running your own Docker tooling doesn't scare you, you can cancel Portainer Business.",
-  "other_side": "Keep paying if your team needs a vendor to call when something breaks.",
+  "body": "Portainer Business Edition's Starter plan is $1,045 a year. Arcane does Docker management for free, under a BSD-3-Clause license. It's self-hosted, so running it and keeping it updated is on you, and nobody's on call when it breaks. It picked up 654 stars today, which is a lot more than it usually gets. A hundred people have worked on it, and the README says main is now the v3 version.",
+  "verdict": "If you pay for Portainer Starter just to manage your own Docker hosts, you can cancel it.",
+  "other_side": "Keep paying if you need a vendor to call when something breaks.",
   "facts": {
    "repo": "getarcaneapp/arcane",
    "description": "Modern Docker Management, Designed for Everyone",
@@ -28,15 +28,23 @@
    "pricing_url": "https://www.portainer.io/pricing",
    "readme_excerpt": "> [!NOTE] > The `main` branch is the v3 version of Arcane See the [`release/2.x.x`](https://github.com/getarcaneapp/arcane/tree/release/2.x.x) branch for the last 2.x release. > [!IMPORTANT] > Feature requests have moved to [Discussions](https://github.com/getarcaneapp/arcane/discussions/categories/feature-requests). Open new requests and upvote existing ones there; issues are only used for Bug reports now to help maintain priority on those issues.      Modern Docker Management, Designed for Everyone.                  [ ](https://www.greptile.com/?utm_source=oss_badge&utm_medium=readme&utm_campaign=greptile_for_open_source)             ## Documentation For setup instructions, configuration details, and development guides, visit the **[official documentation site](https://getarcane.app)**. ## Sponsors This project is supported by the following amazing people:           ## Security & Transparency View the Software Bill of Materials (SBOM) for Arcane at **[getarcane.app/sbom](https://getarcane.app/sbom)**. ## Translating Help translate Arcane on Crowdin: https://crowdin.com/project/arcane-docker-management Thank you for checking out Arcane! Your feedback and contributions are always welcome.   ",
    "url": "https://github.com/getarcaneapp/arcane",
-   "strongest_verdict": "cancel"
+   "strongest_verdict": "cancel",
+   "stars_today": 654,
+   "stars_average_day": 16,
+   "forks_today": 84,
+   "forks_average_day_before": 2.4,
+   "commits_last_12_weeks": 994,
+   "commits_last_full_week": 84,
+   "issues_opened_last_days": 80,
+   "issue_window_days": 30
   }
  },
  {
   "title": "Dograh",
   "kind": "try",
-  "body": "Dograh is an open source voice AI platform with a visual workflow builder and telephony support. The README says self-hosting takes one Docker command.\n\nVapi's Core plan is $29 a month. Dograh isn't free either, because you run the server and bring your own keys for the LLM and the speech models. And when a live call drops, you're the one who has to deal with it.\n\nIt has 72 contributors and the last commit was yesterday.",
-  "verdict": "If you build voice agents and can run Docker, try Dograh next to Vapi.",
-  "other_side": "Keep paying if you don't want to run your own server and look after the provider keys yourself.",
+  "body": "Vapi's Core plan is $29 a month. Dograh is a voice agent platform you host yourself, and it has a visual workflow builder. The README says it's free to self-host and it starts with one Docker command. You still bring your own keys for the speech and language models, and you pay those providers yourself. If a live call breaks, you're the one fixing it. It has 72 contributors and the last commit was yesterday.",
+  "verdict": "Before you move your phone lines off Vapi, put a few real calls through Dograh and see how it does.",
+  "other_side": "Keep paying if your agents take customer calls and you don't have time to look after a server.",
   "facts": {
    "repo": "dograh-hq/dograh",
    "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
@@ -60,15 +68,23 @@
    "pricing_url": "https://vapi.ai/pricing",
    "readme_excerpt": "# Dograh AI           **The open-source, self-hostable alternative to Vapi & Retell** — build production voice agents with a visual workflow builder, test them in minutes, and let AI coding assistants help design and edit them through MCP.         &nbsp;       &nbsp;            📖 Docs  &nbsp;·&nbsp;  📜 BSD 2-Clause  &nbsp;·&nbsp;  🌐 中文  &nbsp;·&nbsp;  🌐 日本語          - **100% open source**, self-hostable — no vendor lock-in, unlike Vapi or Retell - **Full control & transparency** — every line of code is open, with flexible LLM / TTS / STT integration - **Maintained by YC alumni and exit founders**, committed to keeping voice AI open       &nbsp;           &nbsp;             ## 🎥 Featured            Featured by  Better Stack  — a hands-on look at Dograh       📺 Prefer a 2-minute product walkthrough? Click here.              ## ⚖️ Dograh vs Vapi vs Retell An honest comparison on the axes that matter most to teams evaluating voice AI platforms. | | **Dograh** | **Vapi** | **Retell** | |---|---|---|---| | **License** | BSD 2-Clause (open source) | Proprietary | Proprietary | | **Self-hostable** | ✅ Yes — one Docker command | ❌ SaaS only | ❌ SaaS only | | **Pricing** | Free (self-host) · usage-based (cloud) | Per-minute SaaS | Per-minute SaaS | | **Bring your own LLM / STT / TTS** | ✅ Any provider, or use Dograh's stack | Configurable within their integrations | Configurable within their integrations | | **Source-level customization** | ✅ Every line is yours to modify | ❌ Closed so",
    "url": "https://github.com/dograh-hq/dograh",
-   "strongest_verdict": "cancel"
+   "strongest_verdict": "cancel",
+   "stars_today": 13,
+   "stars_average_day": 14,
+   "forks_today": 3,
+   "forks_average_day_before": 3.9,
+   "commits_last_12_weeks": 171,
+   "commits_last_full_week": 5,
+   "issues_opened_last_days": 18,
+   "issue_window_days": 30
   }
  },
  {
   "title": "Hex",
   "kind": "try",
-  "body": "Wispr Flow Pro is $12 per user a month. A team of ten pays $120.\n\nHex does the main thing. According to the README you hold a key and talk, and it transcribes on your device and pastes the text at the cursor. The first run downloads a speech model and after that nothing leaves the machine.\n\nIt's a young project, though 25 people have worked on it and the last commit was today. Upkeep is on you, and when it breaks there's nobody to call.",
-  "verdict": "Use Hex alongside Wispr Flow for a few weeks before you cancel anything.",
-  "other_side": "Keep paying if you want someone to call when dictation stops working.",
+  "body": "Wispr Flow Pro costs $12 per user a month. Hex runs on your own computer. You talk, it turns that into text on the device and pastes it where your cursor is. The README says nothing leaves the computer once the speech model is downloaded the first time. It's made by the team behind opencode.\n\nIt got 198 stars today. Usually it's around 59 a day.\n\nThe project is still young and the experimental parts are in a Labs section. If something breaks, you'll probably have to sort it out yourself.",
+  "verdict": "Run Hex next to Wispr Flow for a week before you cancel anything.",
+  "other_side": "Keep paying if a support line matters for the day dictation breaks.",
   "facts": {
    "repo": "anomalyco/hex",
    "description": "Local voice dictation for mac, windows and linux",
@@ -93,6 +109,30 @@
    "readme_excerpt": "# Hex Hex is local voice dictation for Mac, Windows and Linux. Hold a key, speak, and it pastes. ## How it works - hold the shortcut, speak, then let go - Hex transcribes on your device and pastes into whatever app you're in - the first run downloads a speech model; after that nothing leaves your machine - experimental features live in Labs, at the bottom of the sidebar ## What it does - hold the shortcut to dictate, or set Shortcut mode to Tap to start and stop with a press - the text lands at the cursor in whatever app you're in - Option-Shift-V pastes the last dictation again (Ctrl-Alt-V on Windows and Linux) - History keeps your dictations, searchable, for 7 days by default - Output runs every dictation through steps you choose (word replacements, built-in cleanups, your own scripts, an optional OpenCode rewrite), with different steps per app or website - Vocabulary is one list of names Hex should know; Whisper and Qwen3-ASR read it while transcribing, Parakeet models read it with Labs › Vocabulary help on, and the OpenCode rewrite uses it - Annotate records the screen while you draw and talk, on macOS, Linux and Windows (GNOME Wayland needs Labs › Annotate on GNOME) - an authenticated local API and the [TypeScript SDK](sdk/typescript/README.md) transcribe with the same model, for your own tools - Meetings is a macOS lab that records a call and writes the transcript Output and History:     ## Speech models Hex downloads one model the first time it runs and transcribes wit",
    "url": "https://github.com/anomalyco/hex",
    "strongest_verdict": "try",
+   "stars_today": 198,
+   "stars_average_day": 59,
+   "forks_today": 10,
+   "forks_average_day_before": 14.1,
+   "commits_last_12_weeks": 1609,
+   "commits_last_full_week": 190,
+   "issues_opened_last_days": 206,
+   "issue_window_days": 12,
+   "owner_public_repos": 75,
+   "owner_stars_all_repos": 310872,
+   "owner_other_top_repos": [
+    [
+     "opencode",
+     227478
+    ],
+    [
+     "sst",
+     26443
+    ],
+    [
+     "opentui",
+     13835
+    ]
+   ],
    "price_team_of_10": 120.0
   }
  }

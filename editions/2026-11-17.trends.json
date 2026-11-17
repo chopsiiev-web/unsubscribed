@@ -169,7 +169,7 @@
    ],
    [
     "2026-11-17",
-    83
+    84
    ]
   ],
   "issues": [
@@ -293,7 +293,13 @@
     "2026-11-17",
     5
    ]
-  ]
+  ],
+  "owner": {
+   "name": "getarcaneapp",
+   "repos": 22,
+   "stars_all": 9148,
+   "top": []
+  }
  },
  "dograh-hq/dograh": {
   "commits": [
@@ -589,7 +595,13 @@
     "2026-11-17",
     0
    ]
-  ]
+  ],
+  "owner": {
+   "name": "dograh-hq",
+   "repos": 7,
+   "stars_all": 6211,
+   "top": []
+  }
  },
  "anomalyco/hex": {
   "commits": [
@@ -813,6 +825,25 @@
     "2026-11-17",
     4
    ]
-  ]
+  ],
+  "owner": {
+   "name": "anomalyco",
+   "repos": 75,
+   "stars_all": 310872,
+   "top": [
+    [
+     "opencode",
+     227478
+    ],
+    [
+     "sst",
+     26443
+    ],
+    [
+     "opentui",
+     13835
+    ]
+   ]
+  }
  }
 }
