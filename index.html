@@ -41,6 +41,14 @@ h2{font:600 30px/1.15 Fraunces,serif;margin:8px 0 14px}
 .duo span{color:var(--ink)}.duo em{font-style:normal;color:var(--ink);text-align:right}
 .duo i{display:block;height:16px;width:var(--w);min-width:2px;background:var(--ink);opacity:.22}.duo i.now{opacity:1;background:var(--k)}
 .ticks{display:flex;justify-content:space-between;margin-top:6px;border-top:1px solid var(--rule);padding-top:5px}
+.intro{max-width:62ch;margin:0 0 22px}
+.intro p{margin:0 0 10px;color:var(--mute);font-size:16px}
+.intro .lede{color:var(--ink);font-size:19px;line-height:1.45}
+.key{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px 24px;margin:16px 0 0;padding:14px 0 0;border-top:1px dashed var(--rule)}
+.key div{--k:var(--cancel)}.key .try{--k:var(--try)}.key .keep{--k:var(--keep)}
+.key dt{display:inline-block;font:600 11px/1 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--k);border:1.5px solid var(--k);padding:5px 7px 4px;transform:rotate(-2deg);margin-bottom:6px}
+.key dd{margin:0;font-size:14px;line-height:1.45;color:var(--ink)}
+.sub{margin-bottom:14px}
 .bill.cancel{--k:var(--cancel)}.bill.try{--k:var(--try)}.bill.keep{--k:var(--keep)}
 .owner{font:400 13px/1.5 'IBM Plex Mono',monospace;color:var(--mute);margin:-6px 0 14px;font-variant-numeric:tabular-nums}
 ::selection{background:#f2d7a8;color:var(--ink)}
@@ -54,6 +62,11 @@ footer ul{padding-left:18px;margin:0}
 <main>
 <div class="mast"><h1>Unsubscribed</h1>
 <p class="sub">Today's GitHub trending, priced against what you pay for.</p>
+<div class="intro">
+<p class="lede">Every morning we go through GitHub trending and pick the open source repos that could replace something you pay for every month.</p>
+<p>Each review puts the price from the vendor's own page next to what you'd still pay or run yourself after switching, and checks whether the repo still looks alive. It's for founders and small teams who don't have time to install every new repo and try it themselves.</p>
+<dl class="key"><div class="cancel"><dt>Cancel</dt><dd>Does the main job and has a track record.</dd></div><div class="try"><dt>Try it</dt><dd>Run it next to the paid tool first.</dd></div><div class="keep"><dt>Keep paying</dt><dd>Too young, too quiet or too much work for now.</dd></div></dl>
+</div>
 <p class="counter"><time datetime="2026-11-17">17 November 2026</time><span>Cancelled on paper this month <b>$126.08 + €6.80 a month</b></span></p></div>
 <article class="bill cancel">
   <header><a class="repo" href="https://github.com/getarcaneapp/arcane">getarcaneapp/arcane</a><span class="stars">9,084 stars · +654 today</span></header>
