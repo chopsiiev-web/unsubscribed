@@ -1,0 +1,175 @@
+[
+ {
+  "title": "n8n",
+  "intro": "A workflow automation tool with a fair-code license that you can host on your own server, for people who connect their apps with Zapier.",
+  "kind": "cancel",
+  "body": "Zapier Professional starts at $19.99 a month. n8n does the same job, connecting your apps on a visual canvas, and the README says you can write JavaScript or Python when the blocks aren't enough. If you self-host it, that means Docker and a server you keep alive yourself. The project is busy and the last commit was today. It got 315 stars today, which is about four times a normal day. When it breaks there's nobody to call, and that's a fair reason to stay on Zapier.",
+  "verdict": "If you can run Docker and don't mind looking after a server, you can cancel Zapier.",
+  "other_side": "Keep paying if you want your automations to run without setting up a server yourself.",
+  "facts": {
+   "repo": "n8n-io/n8n",
+   "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "language": "TypeScript",
+   "stars": 210814,
+   "starsSince": 315,
+   "created": "2019-06-22",
+   "last_commit": "2026-11-18",
+   "license": "NOASSERTION",
+   "contributors": 871,
+   "commits": 27643,
+   "days_old": 2706,
+   "days_since_commit": 0,
+   "issues_ever": 1000,
+   "stars_per_issue": 211,
+   "replaces": "Zapier",
+   "plan": "Professional",
+   "price": "$19.99",
+   "per": "month",
+   "price_quote": "Professional Starting from $19.99 /month",
+   "pricing_url": "https://zapier.com/pricing",
+   "readme_excerpt": "  # n8n – The Platform for AI Agents and Workflow Automation Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the [cloud](https://app.n8n.cloud/login), and connect to 1500+ integrations. AI automation you can trust with real work, from prototype to production.   ## Key Capabilities - **AI-Native Automation Platform**: Build and operationalize AI workflows and multi-step agents using your own data, models, and tools - **Model Flexibility, No Lock-In**: Connect to OpenAI, Anthropic, Google, or open-source models and switch providers without changing your architecture - **From Prototype to Production**: Design multi-step AI workflows with logic, tool use, human approvals, and full observability - **Code When You Need It**: Combine visual building with JavaScript, Python, and npm packages for advanced AI workflows - **Enterprise-Ready AI**: Self-host or deploy securely with role-based access, audit trails, and support for sensitive data - **Leverage What Already Exists**: 1500+ integrations and 9,000+ workflow [templates](https://n8n.io/workflows) to connect AI with your existing systems ## Quick Start Try n8n instantly with our install script (requires [Docker](https://www.docker.com/)): ```sh curl -fsSL https://get.n8n.io | sh ``` Or deploy manually with [Docker](https://docs.n8n.io/hosting/installation/docker/): ``` docker volume create n8n_data docker run -it --rm --name n8n -p 5678:5678 -v n8n_",
+   "url": "https://github.com/n8n-io/n8n",
+   "strongest_verdict": "cancel",
+   "stars_today": 315,
+   "stars_average_day": 78,
+   "forks_today": 11,
+   "forks_average_day_before": 33.0,
+   "commits_last_12_weeks": 5728,
+   "commits_last_full_week": 809,
+   "issues_opened_last_days": 53,
+   "issue_window_days": 5,
+   "owner_public_repos": 42,
+   "owner_stars_all_repos": 235220,
+   "owner_other_top_repos": [
+    [
+     "self-hosted-ai-starter-kit",
+     15376
+    ],
+    [
+     "nod",
+     2422
+    ],
+    [
+     "n8n-docs",
+     1855
+    ]
+   ]
+  }
+ },
+ {
+  "title": "Stalwart",
+  "intro": "An open-source mail and calendar server you run on your own machines, for teams who'd rather keep their email off someone else's servers.",
+  "kind": "try",
+  "body": "Google Workspace Starter costs €6.80 a user per month. For a team of ten that's €68. Stalwart is a mail server you run yourself, and the README says it handles all the common mail protocols and calendars too. When it breaks there's nobody to call, you fix it yourself, and with a mail server that's real work. The project does look well kept. 57 people have worked on it. The last commit was two days ago.",
+  "verdict": "If running your own server doesn't scare you, try Stalwart alongside Workspace for a while. Move the team over once it holds up.",
+  "other_side": "Keep paying if nobody on your team wants to look after a mail server.",
+  "facts": {
+   "repo": "stalwartlabs/stalwart",
+   "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+   "language": "Rust",
+   "stars": 16021,
+   "starsSince": 28,
+   "created": "2023-03-06",
+   "last_commit": "2026-11-16",
+   "license": null,
+   "contributors": 57,
+   "commits": 1858,
+   "days_old": 1353,
+   "days_since_commit": 2,
+   "issues_ever": 1000,
+   "stars_per_issue": 16,
+   "replaces": "Google Workspace",
+   "plan": "Starter",
+   "price": "€6.80",
+   "per": "user per month",
+   "price_quote": "Price is per user/month and does not include tax €5.44 €6.80 ** / user per month",
+   "pricing_url": "https://workspace.google.com/pricing",
+   "readme_excerpt": "            Secure, scalable mail & collaboration server with comprehensive protocol support 🛡️  (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV)           &nbsp;     &nbsp;     &nbsp;           &nbsp;         &nbsp;       ## Features **Stalwart** is an open-source mail & collaboration server with JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV and WebDAV support and a wide range of modern features. It is written in Rust and designed to be secure, fast, robust and scalable. Key features: - **Email** server with complete protocol support: - JMAP: * [JMAP for Mail](https://datatracker.ietf.org/doc/html/rfc8621) server. * [JMAP for Sieve Scripts](https://www.rfc-editor.org/rfc/rfc9661.html). * [JMAP Object Metadata](https://datatracker.ietf.org/doc/html/draft-ietf-jmap-metadata-04) for e-mails, mailboxes, calendars, contacts, files and Sieve scripts. * [WebSocket](https://datatracker.ietf.org/doc/html/rfc8887), [Blob Management](https://www.rfc-editor.org/rfc/rfc9404.html) and [Quotas](https://www.rfc-editor.org/rfc/rfc9425.html) extensions. - IMAP: * [IMAP4rev2](https://datatracker.ietf.org/doc/html/rfc9051) and [IMAP4rev1](https://datatracker.ietf.org/doc/html/rfc3501) server. * [ManageSieve](https://datatracker.ietf.org/doc/html/rfc5804) server. * Numerous [extensions](https://stalw.art/docs/development/rfcs#imap4-and-extensions) supported. - POP3: - [POP3](https://datatracker.ietf.org/doc/html/rfc1939) server. - [STLS](https://datatracker.ietf.org/doc/html/rfc2595) and [SASL](https://da",
+   "url": "https://github.com/stalwartlabs/stalwart",
+   "strongest_verdict": "cancel",
+   "stars_today": 28,
+   "stars_average_day": 12,
+   "forks_today": 0,
+   "forks_average_day_before": 2.6,
+   "commits_last_12_weeks": 151,
+   "commits_last_full_week": 1,
+   "issues_opened_last_days": 1,
+   "issue_window_days": 30,
+   "owner_public_repos": 31,
+   "owner_stars_all_repos": 19212,
+   "owner_other_top_repos": [
+    [
+     "jmap-server",
+     601
+    ],
+    [
+     "mail-parser",
+     483
+    ],
+    [
+     "smtp-server",
+     481
+    ]
+   ],
+   "price_team_of_10": 68.0
+  }
+ },
+ {
+  "title": "Claude Code Security Review",
+  "intro": "A GitHub Action from Anthropic that has Claude look over pull requests for security holes, for teams that already review their code on GitHub.",
+  "kind": "keep",
+  "body": "CodeRabbit Essentials is $24 per developer a month on the annual plan. This one is from the team that makes claude-code. It reads your pull requests and leaves comments where it finds security issues. You still need your own Claude API key, and it only looks for security problems. The last commit was 280 days ago.",
+  "verdict": "Keep CodeRabbit. This one only checks security, and nobody has touched it in months.",
+  "other_side": "Switch if all you want is security comments on your PRs and you already pay for a Claude API key.",
+  "facts": {
+   "repo": "anthropics/claude-code-security-review",
+   "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
+   "language": "Python",
+   "stars": 6989,
+   "starsSince": 24,
+   "created": "2025-08-04",
+   "last_commit": "2026-02-11",
+   "license": "MIT",
+   "contributors": 3,
+   "commits": 30,
+   "days_old": 471,
+   "days_since_commit": 280,
+   "issues_ever": 69,
+   "stars_per_issue": 101,
+   "replaces": "CodeRabbit",
+   "plan": "Essentials",
+   "price": "$24",
+   "per": "user per month",
+   "price_quote": "Essentials retains the current Pro price of $30 per developer per month, or $24 per developer per month when billed annually.",
+   "pricing_url": "https://www.coderabbit.ai/pricing",
+   "readme_excerpt": "# Claude Code Security Reviewer An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities. This action provides intelligent, context-aware security analysis for pull requests using Anthropic's Claude Code tool for deep semantic security analysis. See our blog post [here](https://www.anthropic.com/news/automate-security-reviews-with-claude-code) for more details. ## Features - **AI-Powered Analysis**: Uses Claude's advanced reasoning to detect security vulnerabilities with deep semantic understanding - **Diff-Aware Scanning**: For PRs, only analyzes changed files - **PR Comments**: Automatically comments on PRs with security findings - **Contextual Understanding**: Goes beyond pattern matching to understand code semantics - **Language Agnostic**: Works with any programming language - **False Positive Filtering**: Advanced filtering to reduce noise and focus on real vulnerabilities ## Quick Start Add this to your repository's `.github/workflows/security.yml`: ```yaml name: Security Review permissions: pull-requests: write # Needed for leaving PR comments contents: read on: pull_request: jobs: security: runs-on: ubuntu-latest steps: - uses: actions/checkout@v4 with: ref: ${{ github.event.pull_request.head.sha || github.sha }} fetch-depth: 2 - uses: anthropics/claude-code-security-review@main with: comment-pr: true claude-api-key: ${{ secrets.CLAUDE_API_KEY }} ``` ## Security Considerations This action is not hardened against pr",
+   "url": "https://github.com/anthropics/claude-code-security-review",
+   "strongest_verdict": "keep",
+   "stars_today": 24,
+   "stars_average_day": 15,
+   "forks_today": 2,
+   "forks_average_day_before": 2.8,
+   "commits_last_12_weeks": 0,
+   "commits_last_full_week": 0,
+   "issues_opened_last_days": 2,
+   "issue_window_days": 30,
+   "owner_public_repos": 93,
+   "owner_stars_all_repos": 725197,
+   "owner_other_top_repos": [
+    [
+     "skills",
+     196980
+    ],
+    [
+     "claude-code",
+     156106
+    ],
+    [
+     "claude-cookbooks",
+     54832
+    ]
+   ],
+   "price_team_of_10": 240.0
+  }
+ }
+]
