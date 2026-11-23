@@ -1,0 +1,218 @@
+[
+ {
+  "title": "Appwrite",
+  "intro": "An open-source backend for developers and AI agents building apps, and you can host it yourself or use the managed version.",
+  "kind": "try",
+  "body": "Supabase Pro starts at $25 a month. Appwrite does the same backend job, and the README says you can self-host it on your own infrastructure. Then the server and the upgrades are yours to run, and when it breaks there's nobody to call. 556 people have contributed and the last commit was today. It got 50 stars today, and a normal day is about 21. If your app is already live on Supabase, moving the auth and the data over is real work.",
+  "verdict": "Try Appwrite on the next project before cancelling Supabase. It has been around long enough to replace it.",
+  "other_side": "Keep paying if your app already runs on Supabase and you don't want to look after a server yourself.",
+  "facts": {
+   "repo": "appwrite/appwrite",
+   "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+   "language": "TypeScript",
+   "stars": 58477,
+   "starsSince": 50,
+   "created": "2019-04-08",
+   "last_commit": "2026-11-21",
+   "license": "BSD-3-Clause",
+   "contributors": 556,
+   "commits": 62743,
+   "days_old": 2784,
+   "days_since_commit": 0,
+   "issues_ever": 1000,
+   "stars_per_issue": 58,
+   "replaces": "Supabase",
+   "plan": "Pro",
+   "price": "$25",
+   "per": "month",
+   "price_quote": "From $ 25 / month Get Started First project included.",
+   "pricing_url": "https://supabase.com/pricing",
+   "readme_excerpt": "       Appwrite   The open-source cloud for agents and developers. Appwrite is an MCP and agent-first platform for building and scaling apps. Give your agents Auth, Databases, Storage, Functions, Messaging, Realtime, and Hosting, all in one place.        [ ](https://appwrite.io/discord) [ ](https://x.com/appwrite) [ ](https://cloud.appwrite.io) English | [简体中文](README-CN.md) Appwrite is an MCP and agent-first, open-source platform for building and scaling apps. MCP is included, so coding agents can operate on a live Appwrite project. Appwrite is available as a managed cloud platform and can also be self-hosted on infrastructure you control. It is designed for the AI agents in your workflow as well as for developers. Connect Cursor, Claude Code, Codex, and other agents through the hosted MCP server, or integrate an SDK into your app. Modular products stay unified from the first prototype to production scale. Find out more at [https://appwrite.io](https://appwrite.io). Table of Contents: - [Products](#products) - [Installation \\& Setup](#installation--setup) - [Self-Hosting](#self-hosting) - [Unix](#unix) - [Windows](#windows) - [CMD](#cmd) - [PowerShell](#powershell) - [Docker API version mismatch](#docker-api-version-mismatch) - [Upgrade from an Older Version](#upgrade-from-an-older-version) - [One-Click Setups](#one-click-setups) - [Getting Started](#getting-started) - [Agents](#agents) - [SDKs](#sdks) - [Client](#client) - [Server](#server) - [Architecture](#architecture) -",
+   "url": "https://github.com/appwrite/appwrite",
+   "strongest_verdict": "cancel",
+   "stars_today": 50,
+   "stars_average_day": 21,
+   "forks_today": 4,
+   "forks_average_day_before": 8.3,
+   "commits_last_12_weeks": 13115,
+   "commits_last_full_week": 976,
+   "issues_opened_last_days": 20,
+   "issue_window_days": 15,
+   "owner_public_repos": 164,
+   "owner_stars_all_repos": 71649,
+   "owner_other_top_repos": [
+    [
+     "sdk-for-react-native",
+     4241
+    ],
+    [
+     "awesome-appwrite",
+     1092
+    ],
+    [
+     "pink",
+     522
+    ]
+   ]
+  }
+ },
+ {
+  "title": "OpenCode",
+  "intro": "An open source AI coding agent for developers that you install from the command line, and there's also a desktop app in beta.",
+  "kind": "try",
+  "body": "Claude Pro costs $20 a month. If you pay for the whole year it comes to $17.\n\nOpenCode is an open source coding agent. You install it with npm or Homebrew and run it on your own machine, so you do the updates yourself, and if it breaks there's no support to call. The README excerpt doesn't say which models it works with, so check that before anything else.\n\nIt's made by the team behind sst. It has 1,098 contributors and somebody pushed a commit today.",
+  "verdict": "Before you cancel Claude Code, run OpenCode next to it for a week. The project is alive and has plenty of people working on it.",
+  "other_side": "Keep paying if you want one subscription that works and you don't want to install or maintain anything.",
+  "facts": {
+   "repo": "anomalyco/opencode",
+   "description": "The open source coding agent.",
+   "language": "TypeScript",
+   "stars": 228373,
+   "starsSince": 211,
+   "created": "2025-04-30",
+   "last_commit": "2026-11-21",
+   "license": "MIT",
+   "contributors": 1098,
+   "commits": 23111,
+   "days_old": 570,
+   "days_since_commit": 0,
+   "issues_ever": 1000,
+   "stars_per_issue": 228,
+   "replaces": "Claude Code (Claude Pro)",
+   "plan": "Pro",
+   "price": "$17",
+   "per": "month",
+   "price_quote": "$17 Per month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
+   "pricing_url": "https://claude.com/pricing",
+   "readme_excerpt": "                   The open source AI coding agent.                     English  |  简体中文  |  繁體中文  |  한국어  |  Deutsch  |  Español  |  Français  |  Italiano  |  Dansk  |  日本語  |  Polski  |  Русский  |  Bosanski  |  العربية  |  Norsk  |  Português (Brasil)  |  ไทย  |  Türkçe  |  Українська  |  বাংলা  |  Ελληνικά  |  Tiếng Việt    [ ](https://opencode.ai) --- ### Installation ```bash # YOLO curl -fsSL https://opencode.ai/v2/install | bash # Package managers npm i -g @opencode/cli@latest # or bun/pnpm/yarn brew install anomalyco/tap/opencode-v2 # macOS and Linux (recommended, always up to date) brew install opencode # macOS and Linux (official brew formula, updated less) sudo pacman -S opencode # Arch Linux (Stable) paru -S opencode-beta # Arch Linux (Latest from AUR) mise use -g opencode # Any OS nix run github:anomalyco/opencode # Nix ``` > [!TIP] > Remove versions older than 0.1.x before installing. ### Desktop App (BETA) OpenCode is also available as a desktop application. Download it from [opencode.ai/download](https://opencode.ai/download). | Platform | Download | | --------------------- | ---------------------------------- | | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg` | | macOS (Intel) | `opencode-desktop-mac-x64.dmg` | | Windows | `opencode-desktop-win-x64.exe` | | Linux | `.deb`, `.rpm`, or `.AppImage` | ```bash # macOS (Homebrew) brew install --cask opencode-desktop ``` #### Installation Directory The install script installs OpenCode to `$HOME/.opencode/b",
+   "url": "https://github.com/anomalyco/opencode",
+   "strongest_verdict": "cancel",
+   "stars_today": 211,
+   "stars_average_day": 401,
+   "forks_today": 34,
+   "forks_average_day_before": 64.3,
+   "commits_last_12_weeks": 4159,
+   "commits_last_full_week": 371,
+   "issues_opened_last_days": 150,
+   "issue_window_days": 2,
+   "owner_public_repos": 77,
+   "owner_stars_all_repos": 313297,
+   "owner_other_top_repos": [
+    [
+     "sst",
+     26457
+    ],
+    [
+     "opentui",
+     13876
+    ],
+    [
+     "hex",
+     7870
+    ]
+   ]
+  }
+ },
+ {
+  "title": "AutoClip",
+  "intro": "An open-source desktop app for creators that cuts long podcasts and interviews into short clips.",
+  "kind": "try",
+  "body": "Opus Clip Starter is $15 a month. With AutoClip you paste a link and it renders the clip on your own machine. The software is free, and the README says the cloud models are billed by usage, so you still pay as you go.\n\nIt got 689 stars today. On a normal day it gets about 25. Six people work on it and the last commit was today.\n\nA flat price is easier to budget. And when AutoClip breaks there's nobody to call.",
+  "verdict": "Run AutoClip next to Opus Clip for a month and see what the model bill comes to.",
+  "other_side": "Keep paying if you want one fixed price and someone to call when it breaks.",
+  "facts": {
+   "repo": "zhouxiaoka/autoclip",
+   "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "language": "Python",
+   "stars": 12665,
+   "starsSince": 689,
+   "created": "2025-07-08",
+   "last_commit": "2026-11-21",
+   "license": "MIT",
+   "contributors": 6,
+   "commits": 1297,
+   "days_old": 501,
+   "days_since_commit": 0,
+   "issues_ever": 141,
+   "stars_per_issue": 90,
+   "replaces": "Opus Clip",
+   "plan": "Starter",
+   "price": "$15",
+   "per": "month",
+   "price_quote": "Starter For individual creators $ 15 USD $ 15 USD /mo Starter plan only available in monthly",
+   "pricing_url": "https://www.opus.pro/pricing",
+   "readme_excerpt": "      # AutoClip ### 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成  视频、封面和发布文案 ，  适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。  软件免费，云端模型按量计费；需要调整时可进入编辑器。                         **[官网](https://zhouxiaoka.github.io/autoclip_intro/)** · **[下载桌面版](https://github.com/zhouxiaoka/autoclip/releases/latest)** · [案例库](https://zhouxiaoka.github.io/autoclip_intro/cases/) · [研究](docs/research/2026-10-what-drives-views/article-zh.md) · [快速开始](#快速开始) · [文档](#文档) · [问题反馈](https://github.com/zhouxiaoka/autoclip/issues/new/choose) **简体中文** · [English](README-EN.md) · [日本語](README-JA.md) · [한국어](README-KO.md) · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · [Français](README-FR.md)   **[最新正式版](https://github.com/zhouxiaoka/autoclip/releases/latest)**，桌面、CLI 与 MCP 同步更新。版本以 `autoclip --version` 和 MCP `get_version` 为准。一键出片、字幕分页、人物取景与长视频队列修复见 [更新日志](CHANGELOG.md)。旧版用户请升级。 ## 真实成片 点击截图或「播放」直接观看完整成片；下方语言指成片字幕语言。这里精选 6 条，展开可看另外 10 条。 ### 竖版 · 访谈式与满屏播客式             Bill Gates   访谈式 · 抖音 · 中文   ▶ 播放 1:01  ·  原片            AI Experts Debate   访谈式 · Shorts · 英文   ▶ 播放 1:25  ·  原片            Tony Robbins   满屏播客 · 抖音 · 中文   ▶ 播放 1:45  ·  原片            Andrew Garfield × Amy Poehler   满屏播客 · Shorts · 英文   ▶ 播放 1:01  ·  原片        ### 横版 · 保留原画幅             佟丽娅 × 鲁豫   原画幅 · B 站 · 中文   ▶ 播放 1:41  ·  原片            Sam Altman   原画幅 · B 站 · 中文   ▶ 播放 2:02  ·  原片           查看更多 10 条真实成片              Adam Neumann   满屏播客 · TikTok · 英文   ▶ 播放 0:59  ·  原片            小奇 × 鲁豫   访谈式 · 抖音 ·",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "strongest_verdict": "try",
+   "stars_today": 689,
+   "stars_average_day": 25,
+   "forks_today": 45,
+   "forks_average_day_before": 10.2,
+   "commits_last_12_weeks": 956,
+   "commits_last_full_week": 0,
+   "issues_opened_last_days": 14,
+   "issue_window_days": 30,
+   "owner_public_repos": 4,
+   "owner_stars_all_repos": 13939,
+   "owner_other_top_repos": [
+    [
+     "autoclip_mvp",
+     1271
+    ]
+   ]
+  }
+ },
+ {
+  "title": "FreeVideo",
+  "intro": "Makes AI videos locally on your own graphics card, for anyone tired of paying for credits.",
+  "kind": "try",
+  "body": "Runway Standard is $12 a month if you pay for the year. FreeVideo runs the MiniMax H3 model on your own machine, and the README says it can work with as little as 8 GB of VRAM. You need your own card, though, and if something breaks there's nobody to call. It got 410 stars today. On a normal day it gets about 59. The last commit was yesterday.",
+  "verdict": "If you already have a gaming GPU, try it next to Runway. It's only a couple of months old, so don't cancel Runway yet.",
+  "other_side": "Keep paying if there's no decent graphics card in the machine, or if running and updating the software yourself sounds like a chore.",
+  "facts": {
+   "repo": "FlashML-org/FreeVideo",
+   "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
+   "language": "Python",
+   "stars": 4081,
+   "starsSince": 410,
+   "created": "2026-09-13",
+   "last_commit": "2026-11-20",
+   "license": "Apache-2.0",
+   "contributors": 3,
+   "commits": 1730,
+   "days_old": 69,
+   "days_since_commit": 1,
+   "issues_ever": 801,
+   "stars_per_issue": 5,
+   "replaces": "Runway",
+   "plan": "Standard",
+   "price": "$12",
+   "per": "month",
+   "price_quote": "Billed annually. Save $36/year. For curious creators trying AI video $15 $12 /month 625 credits /mo",
+   "pricing_url": "https://runwayml.com/pricing",
+   "readme_excerpt": "              |   Windows   |   macOS   |   Linux   |   Community Results   |   Gallery   |   Discord   |   QQ Group   |   WeChat Group   |    English ·  中文   Make videos on the computer you already own. Powered by [Video DeltaNet (VDN)](https://openvdn.github.io/), FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, with acceleration adapted to your&nbsp;hardware. https://github.com/user-attachments/assets/ecda7d0d-7fbe-4e0c-8c29-8f3315bafc15   More clips and the four quality levels side by side in the gallery →   ## News - **2026-11-10** · **[v0.5.0](https://github.com/FlashML-org/FreeVideo/releases/tag/v0.5.0): H3 Image.** Pictures up to 16 MP locally, from 8 GB of VRAM. - **2026-10-13** · **[v0.4.0](https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.0): AI agents, minute-long videos and an editing view.** Let an AI agent such as Claude Code or Codex make videos on its own, generate videos over a minute long, and edit them on a timeline. - **2026-10-07** · **[v0.3.2](https://github.com/FlashML-org/FreeVideo/releases/tag/v0.3.2): preview first.** See a half-resolution preview first and finish only the videos you like. - **2026-10-07** · **[v0.3.0](https://github.com/FlashML-org/FreeVideo/releases/tag/v0.3.0): a faster int8 model.** GeForce and RTX 30-series cards switch to int8; an RTX 3090 makes a 5-second video about 2.3x faster. - **2026-10-06** · **[Gallery](https://freevideo-community.pages.dev/#gallery) is live.** Watch 20-second clips mad",
+   "url": "https://github.com/FlashML-org/FreeVideo",
+   "strongest_verdict": "try",
+   "stars_today": 410,
+   "stars_average_day": 59,
+   "forks_today": 50,
+   "forks_average_day_before": 9.5,
+   "commits_last_12_weeks": 1283,
+   "commits_last_full_week": 203,
+   "issues_opened_last_days": 464,
+   "issue_window_days": 25,
+   "owner_public_repos": 6,
+   "owner_stars_all_repos": 22336,
+   "owner_other_top_repos": [
+    [
+     "FreeToken",
+     17539
+    ],
+    [
+     "flashlib",
+     604
+    ]
+   ]
+  }
+ }
+]
