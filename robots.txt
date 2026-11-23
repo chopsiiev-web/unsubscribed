@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chopsiiev-web.github.io/unsubscribed/sitemap.xml

@@ -54,6 +54,42 @@
      522
     ]
    ]
+  },
+  "tags": {
+   "domain": "Backend & databases",
+   "audience": "Small team",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    61.1
+   ],
+   [
+    "PHP",
+    28.4
+   ],
+   [
+    "C",
+    6.4
+   ],
+   [
+    "Rust",
+    3.6
+   ],
+   [
+    "CSS",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/appwrite__appwrite.jpg",
+   "from": "https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee",
+   "w": 1400,
+   "h": 787
   }
  },
  {
@@ -103,6 +139,47 @@
      1276
     ]
    ]
+  },
+  "tags": {
+   "domain": "Video & audio",
+   "audience": "Just me",
+   "runs": [
+    "Desktop app",
+    "Command line"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Python",
+    69.8
+   ],
+   [
+    "TypeScript",
+    13.7
+   ],
+   [
+    "JavaScript",
+    11.6
+   ],
+   [
+    "CSS",
+    1.9
+   ],
+   [
+    "Rust",
+    0.9
+   ],
+   [
+    "Shell",
+    0.8
+   ]
+  ],
+  "image": {
+   "src": "img/zhouxiaoka__autoclip.jpg",
+   "from": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/HEAD/docs/images/demos/gates-ezra-01.jpg",
+   "w": 787,
+   "h": 1400
   }
  },
  {
@@ -156,6 +233,46 @@
      604
     ]
    ]
+  },
+  "tags": {
+   "domain": "Video & audio",
+   "audience": "Just me",
+   "runs": [
+    "Desktop app"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Python",
+    60.6
+   ],
+   [
+    "JavaScript",
+    33.3
+   ],
+   [
+    "CSS",
+    4.2
+   ],
+   [
+    "QML",
+    1.5
+   ],
+   [
+    "Shell",
+    0.2
+   ],
+   [
+    "PowerShell",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/flashml-org__freevideo.jpg",
+   "from": "https://github.com/user-attachments/assets/7647a6f8-4306-403c-b147-45d7a393e18d",
+   "w": 1400,
+   "h": 884
   }
  }
 ]

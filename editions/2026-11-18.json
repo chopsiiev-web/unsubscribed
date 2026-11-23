@@ -54,6 +54,42 @@
      1855
     ]
    ]
+  },
+  "tags": {
+   "domain": "Automation",
+   "audience": "Small team",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    92.2
+   ],
+   [
+    "Vue",
+    6.2
+   ],
+   [
+    "JavaScript",
+    0.8
+   ],
+   [
+    "Python",
+    0.4
+   ],
+   [
+    "SCSS",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/n8n-io__n8n.jpg",
+   "from": "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png",
+   "w": 1400,
+   "h": 841
   }
  },
  {
@@ -112,6 +148,42 @@
     ]
    ],
    "price_team_of_10": 68.0
+  },
+  "tags": {
+   "domain": "Email & calendar",
+   "audience": "Company",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Rust",
+    98.8
+   ],
+   [
+    "Python",
+    0.5
+   ],
+   [
+    "HTML",
+    0.2
+   ],
+   [
+    "JavaScript",
+    0.2
+   ],
+   [
+    "Shell",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/stalwartlabs__stalwart.jpg",
+   "from": "https://raw.githubusercontent.com/stalwartlabs/stalwart/HEAD/img/demo.gif",
+   "w": 1400,
+   "h": 875
   }
  },
  {
@@ -170,6 +242,29 @@
     ]
    ],
    "price_team_of_10": 240.0
-  }
+  },
+  "tags": {
+   "domain": "Security & privacy",
+   "audience": "Small team",
+   "runs": [
+    "Command line"
+   ],
+   "needs_paid_keys": true
+  },
+  "langs": [
+   [
+    "Python",
+    89.6
+   ],
+   [
+    "TypeScript",
+    7.2
+   ],
+   [
+    "JavaScript",
+    3.2
+   ]
+  ],
+  "image": null
  }
 ]

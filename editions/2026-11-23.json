@@ -54,6 +54,42 @@
      522
     ]
    ]
+  },
+  "tags": {
+   "domain": "Backend & databases",
+   "audience": "Small team",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    61.1
+   ],
+   [
+    "PHP",
+    28.4
+   ],
+   [
+    "C",
+    6.4
+   ],
+   [
+    "Rust",
+    3.6
+   ],
+   [
+    "CSS",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/appwrite__appwrite.jpg",
+   "from": "https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee",
+   "w": 1400,
+   "h": 787
   }
  },
  {
@@ -111,6 +147,43 @@
      8198
     ]
    ]
+  },
+  "tags": {
+   "domain": "AI assistants & agents",
+   "audience": "Just me",
+   "runs": [
+    "Command line",
+    "Desktop app"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    74.1
+   ],
+   [
+    "Rust",
+    14.0
+   ],
+   [
+    "MDX",
+    8.9
+   ],
+   [
+    "CSS",
+    2.5
+   ],
+   [
+    "Luau",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/anomalyco__opencode.jpg",
+   "from": "https://raw.githubusercontent.com/anomalyco/opencode/HEAD/services/site/public/v1/docs/assets/lander/screenshot.png",
+   "w": 1400,
+   "h": 1142
   }
  },
  {
@@ -164,6 +237,46 @@
      604
     ]
    ]
+  },
+  "tags": {
+   "domain": "Video & audio",
+   "audience": "Just me",
+   "runs": [
+    "Desktop app"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Python",
+    60.6
+   ],
+   [
+    "JavaScript",
+    33.3
+   ],
+   [
+    "CSS",
+    4.2
+   ],
+   [
+    "QML",
+    1.5
+   ],
+   [
+    "Shell",
+    0.2
+   ],
+   [
+    "PowerShell",
+    0.2
+   ]
+  ],
+  "image": {
+   "src": "img/flashml-org__freevideo.jpg",
+   "from": "https://github.com/user-attachments/assets/7647a6f8-4306-403c-b147-45d7a393e18d",
+   "w": 1400,
+   "h": 884
   }
  }
 ]

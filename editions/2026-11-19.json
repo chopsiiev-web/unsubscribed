@@ -38,6 +38,43 @@
    "commits_last_full_week": 285,
    "issues_opened_last_days": 209,
    "issue_window_days": 28
+  },
+  "tags": {
+   "domain": "Personal finance",
+   "audience": "Just me",
+   "runs": [
+    "Desktop app",
+    "Mobile app"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Rust",
+    51.3
+   ],
+   [
+    "TypeScript",
+    46.6
+   ],
+   [
+    "HTML",
+    0.9
+   ],
+   [
+    "CSS",
+    0.6
+   ],
+   [
+    "JavaScript",
+    0.5
+   ]
+  ],
+  "image": {
+   "src": "img/wealthfolio__wealthfolio.jpg",
+   "from": "https://raw.githubusercontent.com/wealthfolio/wealthfolio/HEAD/apps/frontend/public/screenshot.webp",
+   "w": 1400,
+   "h": 1220
   }
  },
  {
@@ -88,6 +125,43 @@
     ]
    ],
    "price_team_of_10": 250.0
+  },
+  "tags": {
+   "domain": "Sales & CRM",
+   "audience": "Company",
+   "runs": [
+    "Your own server",
+    "Command line"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    82.0
+   ],
+   [
+    "MDX",
+    15.9
+   ],
+   [
+    "JavaScript",
+    1.7
+   ],
+   [
+    "CSS",
+    0.2
+   ],
+   [
+    "Python",
+    0.1
+   ]
+  ],
+  "image": {
+   "src": "img/twentyhq__twenty.jpg",
+   "from": "https://raw.githubusercontent.com/twentyhq/twenty/HEAD/packages/twenty-website/public/images/readme/github-cover-light.webp",
+   "w": 1400,
+   "h": 523
   }
  },
  {
@@ -145,7 +219,43 @@
      20063
     ]
    ]
-  }
+  },
+  "tags": {
+   "domain": "AI assistants & agents",
+   "audience": "Company",
+   "runs": [
+    "Your own server",
+    "Command line"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    73.2
+   ],
+   [
+    "Python",
+    10.1
+   ],
+   [
+    "Rust",
+    5.2
+   ],
+   [
+    "Java",
+    2.8
+   ],
+   [
+    "PHP",
+    2.2
+   ],
+   [
+    "Elixir",
+    1.7
+   ]
+  ],
+  "image": null
  },
  {
   "title": "It's a Plan",
@@ -195,6 +305,34 @@
     ]
    ],
    "price_team_of_10": 100.0
+  },
+  "tags": {
+   "domain": "Project management",
+   "audience": "Small team",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": true
+  },
+  "langs": [
+   [
+    "TypeScript",
+    98.4
+   ],
+   [
+    "JavaScript",
+    1.0
+   ],
+   [
+    "CSS",
+    0.4
+   ]
+  ],
+  "image": {
+   "src": "img/croffasia__itsaplan.jpg",
+   "from": "https://raw.githubusercontent.com/croffasia/itsaplan/HEAD/assets/screenshots/tour.gif",
+   "w": 1400,
+   "h": 837
   }
  },
  {
@@ -253,6 +391,47 @@
     ]
    ],
    "price_team_of_10": 95.0
+  },
+  "tags": {
+   "domain": "Notes & knowledge",
+   "audience": "Small team",
+   "runs": [
+    "Desktop app",
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    81.1
+   ],
+   [
+    "Rust",
+    11.9
+   ],
+   [
+    "Swift",
+    4.7
+   ],
+   [
+    "Kotlin",
+    1.1
+   ],
+   [
+    "PLpgSQL",
+    0.4
+   ],
+   [
+    "JavaScript",
+    0.4
+   ]
+  ],
+  "image": {
+   "src": "img/toeverything__affine.jpg",
+   "from": "https://github.com/toeverything/AFFiNE/assets/79301703/49a426bb-8d2b-4216-891a-fa5993642253",
+   "w": 1400,
+   "h": 994
   }
  }
 ]
