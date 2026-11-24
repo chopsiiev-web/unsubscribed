@@ -1,0 +1,91 @@
+[
+ {
+  "title": "Odoo",
+  "intro": "Open source business apps, a CRM among them, for companies that want to host them themselves.",
+  "kind": "try",
+  "body": "Salesforce Sales Cloud's Starter Suite costs $25 per user a month. Odoo has a CRM app you can install on its own or next to their other apps. You host it yourself, so the server is on you. The README doesn't explain setup and sends you to the docs for that. Odoo has been around since 2014.",
+  "verdict": "If your team can run its own server, try Odoo's CRM next to Salesforce for a while, and when your whole pipeline lives in Odoo you can cancel Salesforce.",
+  "other_side": "Keep paying if nobody on your team wants to install it and look after it.",
+  "facts": {
+   "repo": "odoo/odoo",
+   "description": "Odoo. Open Source Apps To Grow Your Business.",
+   "language": "Python",
+   "stars": 56064,
+   "starsSince": 25,
+   "created": "2014-05-13",
+   "last_commit": "2026-11-24",
+   "license": "NOASSERTION",
+   "contributors": 4411,
+   "commits": 213928,
+   "days_old": 4578,
+   "days_since_commit": 0,
+   "issues_ever": 1000,
+   "stars_per_issue": 56,
+   "replaces": "Salesforce Sales Cloud",
+   "plan": "Starter Suite",
+   "price": "$ 25",
+   "per": "user per month",
+   "price_quote": "Starter Suite $ 25 user/month",
+   "pricing_url": "https://www.salesforce.com/sales/pricing/",
+   "readme_excerpt": "# Odoo [ ](https://runbot.odoo.com/runbot) [ ](https://www.odoo.com/documentation/master) [ ](https://www.odoo.com/forum/help-1) [ ](https://nightly.odoo.com/) Odoo is a suite of web based open source business apps. The main Odoo Apps include an [Open Source CRM](https://www.odoo.com/page/crm), [Website Builder](https://www.odoo.com/app/website), [eCommerce](https://www.odoo.com/app/ecommerce), [Warehouse Management](https://www.odoo.com/app/inventory), [Project Management](https://www.odoo.com/app/project), [Billing &amp; Accounting](https://www.odoo.com/app/accounting), [Point of Sale](https://www.odoo.com/app/point-of-sale-shop), [Human Resources](https://www.odoo.com/app/employees), [Marketing](https://www.odoo.com/app/social-marketing), [Manufacturing](https://www.odoo.com/app/manufacturing), [...](https://www.odoo.com/) Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured [Open Source ERP](https://www.odoo.com) when you install several Apps. ## Getting started with Odoo For a standard installation please follow the [Setup instructions](https://www.odoo.com/documentation/master/administration/install/install.html) from the documentation. To learn the software, we recommend the [Odoo eLearning](https://www.odoo.com/slides), or [Scale-up, the business game](https://www.odoo.com/page/scale-up-business-game). Developers can start with [the developer tutorials](https://www.odoo.com/documentation/master/developer/howt",
+   "url": "https://github.com/odoo/odoo",
+   "strongest_verdict": "cancel",
+   "stars_today": 25,
+   "stars_average_day": 12,
+   "forks_today": 4,
+   "forks_average_day_before": 15.6,
+   "commits_last_12_weeks": 2484,
+   "commits_last_full_week": 108,
+   "issues_opened_last_days": 23,
+   "issue_window_days": 4,
+   "owner_public_repos": 32,
+   "owner_stars_all_repos": 62722,
+   "owner_other_top_repos": [
+    [
+     "owl",
+     1602
+    ],
+    [
+     "documentation",
+     1382
+    ],
+    [
+     "docker",
+     1221
+    ]
+   ],
+   "price_team_of_10": 250.0
+  },
+  "tags": {
+   "domain": "Sales & CRM",
+   "audience": "Company",
+   "runs": [
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Python",
+    52.6
+   ],
+   [
+    "JavaScript",
+    43.1
+   ],
+   [
+    "Fluent",
+    1.9
+   ],
+   [
+    "SCSS",
+    1.9
+   ],
+   [
+    "CSS",
+    0.4
+   ]
+  ],
+  "image": null
+ }
+]
