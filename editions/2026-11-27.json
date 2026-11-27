@@ -1,0 +1,194 @@
+[
+ {
+  "title": "RustDesk",
+  "intro": "An open-source remote desktop app you can run on your own server, for people who use TeamViewer to reach other computers.",
+  "kind": "cancel",
+  "body": "TeamViewer Premium costs 49,63 € a month, billed yearly. RustDesk lets you control another computer too, and the README says it works out of the box. It got 174 stars today, and a normal day is closer to 59. You can use their relay server or run your own, and if you run your own then the server and the upkeep are on you. When your relay breaks there's nobody to call.",
+  "verdict": "You can cancel TeamViewer if you're fine with their relay or don't mind running your own server.",
+  "other_side": "Keep paying if you want a vendor you can call when a session won't connect.",
+  "facts": {
+   "repo": "rustdesk/rustdesk",
+   "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+   "language": "Rust",
+   "stars": 131793,
+   "starsSince": 174,
+   "created": "2020-09-28",
+   "last_commit": "2026-11-26",
+   "license": "AGPL-3.0",
+   "contributors": 540,
+   "commits": 11721,
+   "days_old": 2251,
+   "days_since_commit": 1,
+   "issues_ever": 1000,
+   "stars_per_issue": 132,
+   "replaces": "TeamViewer",
+   "plan": "TeamViewer Premium",
+   "price": "49,63 €",
+   "per": "month",
+   "price_quote": "70,90 € 49,63 € Preço por mês, cobrança anual, exc. taxas",
+   "pricing_url": "https://www.teamviewer.com/en/pricing/",
+   "readme_excerpt": "      Build  •  Docker  •  Structure  •  Screenshots   [ Українська ] | [ česky ] | [ 中文 ] | [ Magyar ] | [ Español ] | [ فارسی ] | [ Français ] | [ Deutsch ] | [ Polski ] | [ Indonesian ] | [ Suomi ] | [ മലയാളം ] | [ 日本語 ] | [ Nederlands ] | [ Italiano ] | [ Русский ] | [ Português (Portugal) ] | [ Português (Brasil) ] | [ Esperanto ] | [ 한국어 ] | [ العربي ] | [ Tiếng Việt ] | [ Dansk ] | [ Ελληνικά ] | [ Türkçe ] | [ Norsk ] | [ Română ] | [ ქართული ]   We need your help to translate this README,  RustDesk UI  and  RustDesk Doc  to your native language    > [!Caution] > **Misuse Disclaimer:**   > The developers of RustDesk do not condone or support any unethical or illegal use of this software. Misuse, such as unauthorized access, control or invasion of privacy, is strictly against our guidelines. The authors are not responsible for any misuse of the application. Chat with us: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/rustdesk) | [Reddit](https://www.reddit.com/r/rustdesk) | [YouTube](https://www.youtube.com/@rustdesk) [ ](https://rustdesk.com/pricing.html) Yet another remote desktop solution, written in Rust. Works out of the box with no configuration required. You have full control of your data, with no concerns about security. You can use our rendezvous/relay server, [set up your own](https://rustdesk.com/server), or [write your own rendezvous/relay server](https://github.com/rustdesk/rustdesk-server-demo).   RustDesk welcomes contribution f",
+   "url": "https://github.com/rustdesk/rustdesk",
+   "strongest_verdict": "cancel",
+   "stars_today": 174,
+   "stars_average_day": 59,
+   "forks_today": 46,
+   "forks_average_day_before": 56.1,
+   "commits_last_12_weeks": 450,
+   "commits_last_full_week": 38,
+   "issues_opened_last_days": 137,
+   "issue_window_days": 30,
+   "owner_public_repos": 8,
+   "owner_stars_all_repos": 144751,
+   "owner_other_top_repos": [
+    [
+     "rustdesk-server",
+     10833
+    ],
+    [
+     "doc.rustdesk.com",
+     833
+    ],
+    [
+     "rustdesk-server-demo",
+     762
+    ]
+   ]
+  },
+  "tags": {
+   "domain": "Hosting & DevOps",
+   "audience": "Small team",
+   "runs": [
+    "Desktop app",
+    "Your own server"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "Rust",
+    69.8
+   ],
+   [
+    "Dart",
+    22.1
+   ],
+   [
+    "Python",
+    1.9
+   ],
+   [
+    "C++",
+    1.6
+   ],
+   [
+    "Kotlin",
+    1.5
+   ],
+   [
+    "C",
+    1.4
+   ]
+  ],
+  "image": {
+   "src": "img/rustdesk__rustdesk.jpg",
+   "from": "https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png",
+   "w": 1400,
+   "h": 700
+  }
+ },
+ {
+  "title": "EdgeEver",
+  "intro": "An open-source note-taking app for Evernote users who want to keep their notes on their own server.",
+  "kind": "try",
+  "body": "Evernote Starter is €6.65 a month. EdgeEver keeps the same three-pane notes layout, and the README says it runs free inside Cloudflare's free quotas. You can also run it on your own VPS or NAS with Docker. You have to set it up yourself, and if sync stops working there's no support to write to, so you'd be fixing it on your own. Someone pushed a commit today, so the project is still being worked on.",
+  "verdict": "If setting up a Cloudflare account or Docker doesn't bother you, EdgeEver is worth trying next to Evernote.",
+  "other_side": "Keep paying if you want someone else to keep the sync working.",
+  "facts": {
+   "repo": "tianma-if/edgeever",
+   "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
+   "language": "TypeScript",
+   "stars": 3637,
+   "starsSince": 31,
+   "created": "2026-06-26",
+   "last_commit": "2026-11-27",
+   "license": "AGPL-3.0",
+   "contributors": 26,
+   "commits": 3460,
+   "days_old": 154,
+   "days_since_commit": 0,
+   "issues_ever": 692,
+   "stars_per_issue": 5,
+   "replaces": "Evernote",
+   "plan": "Starter",
+   "price": "€6.65",
+   "per": "month",
+   "price_quote": "Starter €6.65 / month Pay €79.90 / year",
+   "pricing_url": "https://evernote.com/compare-plans",
+   "readme_excerpt": "      EdgeEver      AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.                                       简体中文  |  繁體中文  |  English  |  Español  |  Deutsch  |  Français  |  日本語  |  Polski  |  Русский         Telegram Group  &nbsp;|&nbsp;  🌐 Live Demo  &nbsp;|&nbsp;  🗺️ Roadmap  &nbsp;|&nbsp;  📱 Clients & Extension  &nbsp;|&nbsp;  Feature Matrix & Capabilities  &nbsp;|&nbsp;  📥 Note Migration            EdgeEver is a modern, open-source notes and knowledge base workspace. It preserves the classic, high-efficiency three-pane productivity workflow (Tree View · Note List · Editor) while offering an open data architecture and seamless AI Agent integration for complete ownership and smart productivity. > 💡 **Serverless & 100% Free Forever** > EdgeEver can run within Cloudflare's free quotas with no server purchase or VPS maintenance. Users who prefer a VPS, NAS, or home server can deploy the same application with Docker. > ⭐ If EdgeEver is useful to you, consider giving it a Star. Your support helps more people discover the project. ## Why EdgeEver Many users of **note-taking apps and personal knowledge bases** simply want a **reliable, open, and fast** personal knowledge base. However, existing mainstream solutions all present tradeoffs: * **Evernote**: Offers the smoothest, most seamless multi-device cloud sync experience. Yet as it evolve",
+   "url": "https://github.com/tianma-if/edgeever",
+   "strongest_verdict": "try",
+   "stars_today": 31,
+   "stars_average_day": 24,
+   "forks_today": 18,
+   "forks_average_day_before": 14.0,
+   "commits_last_12_weeks": 1794,
+   "commits_last_full_week": 91,
+   "issues_opened_last_days": 118,
+   "issue_window_days": 30,
+   "owner_public_repos": 27,
+   "owner_stars_all_repos": 3951,
+   "owner_other_top_repos": [
+    [
+     "yoma",
+     162
+    ],
+    [
+     "awesome_product_design",
+     112
+    ]
+   ]
+  },
+  "tags": {
+   "domain": "Notes & knowledge",
+   "audience": "Just me",
+   "runs": [
+    "Your own server",
+    "Mobile app"
+   ],
+   "needs_paid_keys": false
+  },
+  "langs": [
+   [
+    "TypeScript",
+    56.7
+   ],
+   [
+    "JavaScript",
+    28.5
+   ],
+   [
+    "HTML",
+    5.5
+   ],
+   [
+    "Swift",
+    5.1
+   ],
+   [
+    "Astro",
+    1.6
+   ],
+   [
+    "CSS",
+    1.2
+   ]
+  ],
+  "image": {
+   "src": "img/tianma-if__edgeever.jpg",
+   "from": "https://raw.githubusercontent.com/tianma-if/edgeever/HEAD/assets/readme/edgeever-hero-v8-en.png",
+   "w": 1400,
+   "h": 787
+  }
+ }
+]
